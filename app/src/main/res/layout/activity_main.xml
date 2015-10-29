@@ -1,0 +1,33 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity"
+    android:background="#0033d3ff">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tambah Peminjam"
+        android:id="@+id/btnTambah"
+        android:width="300dp"
+        android:height="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/btnLihat"
+        android:layout_alignStart="@+id/btnLihat"
+        android:layout_marginTop="69dp"
+        android:background="#23adff" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnLihat"
+        android:width="300dp"
+        android:height="100dp"
+        android:text="Lihat Data"
+        android:background="#32aaff"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>
